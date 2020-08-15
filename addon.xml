@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.emuelec.Amlogic-ng.launcher" name="EmuELEC (3.7)" version="3.7" provider-name="CoreELEC">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable game</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">EmuELEC addon. Provides binary, cores and basic settings to launch it</summary>
+		<description lang="en">EmuELEC addon is based on ToKe79 Retroarch/Lakka addon. Provides binary, cores and basic settings to launch EmuELEC. </description>
+		<disclaimer lang="en">This is an unofficial add-on. Please don't ask for support in CoreELEC,Lakka or ToKe79 github, forums or irc channels.</disclaimer>
+		<platform>linux</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+		</assets>
+	</extension>
+</addon>
